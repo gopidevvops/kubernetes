@@ -6,6 +6,6 @@ on:
   
 jobs:
   call-reuse-workflow:
-    uses: $GITHUB_WORKSPACE/hubactions/.github/workflows/demo.yml@v3.0
+    uses: ./hubactions/.github/workflows/demo.yml
     with:
       tarfilename: vijay
