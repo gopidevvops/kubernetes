@@ -1,0 +1,9 @@
+Name: to call the private repo resuable file
+
+on: push
+  
+jobs:
+  call-reuse-workflow:
+    uses: $GITHUB_WORKSPACE/hubactions/demo.yml
+    with:
+      tarfilename: vijay
